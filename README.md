@@ -1,6 +1,15 @@
 # HuggingFace
 
-안녕 JC!
+안녕 JC!  
+Hugging Face는 AI와 머신러닝, 특히 자연어처리(NLP) 분야에서 많이 쓰이는 오픈소스 플랫폼이야. 간단히 설명하면:
+
+- **모델 허브**: 다양한 사전 학습된 모델들(BERT, GPT, RoBERTa 등)을 쉽게 찾아보고 사용할 수 있어. 연구자나 개발자들이 복잡한 모델을 처음부터 만들지 않고도, 바로 활용할 수 있도록 도와줘.
+- **라이브러리**: 가장 유명한 것은 [Transformers 라이브러리](https://github.com/huggingface/transformers)인데, 이 라이브러리를 통해 최신 딥러닝 모델을 간단한 코드 몇 줄로 사용할 수 있어.
+- **데이터셋 허브**: 다양한 데이터셋을 공유하고, 쉽게 접근할 수 있도록 만들어진 공간이야. 이를 활용해 연구나 프로젝트에 필요한 데이터를 손쉽게 구할 수 있어.
+- **커뮤니티 중심**: 오픈소스 생태계를 강조하며, 전 세계의 개발자와 연구자들이 서로 협업하고 지식을 나눌 수 있도록 지원해.
+
+자세한 내용이나 최신 정보는 Hugging Face의 [공식 웹사이트](https://huggingface.co)에서 확인할 수 있어.  
+Hugging Face는 단순히 도구나 라이브러리를 제공하는 것뿐만 아니라, AI 커뮤니티가 함께 성장할 수 있도록 다양한 프로젝트와 이벤트도 진행하고 있으니 한번 둘러보면 좋을 거야!
 
 이번엔 Hugging Face Hub에 있는 모델을 활용해서 얼굴을 검출해볼 거야. Hugging Face Hub에는 다양한 모델들이 있는데, 그중에서 **facenet-pytorch** 라이브러리의 MTCNN 모델이 얼굴 검출에 많이 사용돼. 이 라이브러리는 Hugging Face Hub에서도 확인할 수 있어 ([facenet-pytorch GitHub](https://github.com/timesler/facenet-pytorch)).
 
